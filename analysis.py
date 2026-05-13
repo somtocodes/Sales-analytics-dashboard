@@ -4,7 +4,7 @@ import plotly.express as px
 st.title('Analytics Dashboard')
 st.caption('Haven Analytics')
 st.set_page_config( layout = 'wide')
-df = pandas.read_csv('C:/Users/VIBES/.cache/kagglehub/datasets/rohitsahoo/sales-forecasting/versions/2/train.csv')
+df = pandas.read_csv('data/train.csv')
 df = df.drop(columns = ['Row ID', 'Order ID','Ship Date','Ship Mode','Customer ID','Country','Postal Code','Product ID','Customer Name'])
 
 print(df.info())

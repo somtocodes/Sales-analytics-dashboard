@@ -1,6 +1,6 @@
 # Sales Analytics Dashboard
 
-![Sales Analytics Dashboard](preview.png)
+![Sales Analytics Dashboard](preview.jpg)
 
 An interactive **sales analytics dashboard** built with Streamlit. Explore sales performance by category, region, and time with beautiful visualizations.
 

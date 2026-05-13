@@ -18,7 +18,7 @@ def load_data():
 	columns_to_drop =  ['Row ID', 'Order ID','Ship Date','Ship Mode','Customer ID','Country','Postal Code','Product ID','Customer Name']
 	df =  df.drop(columns = columns_to_drop)
 	
-	df['Order Date'] = pandas.to_datetime(df['Order Date'], errors = 'coerce')
+	df['Order Date'] = pd.to_datetime(df['Order Date'], errors = 'coerce')
 	df.dropna(subset=['Order Date'])
 
 	return df

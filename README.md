@@ -26,8 +26,8 @@ An interactive **sales analytics dashboard** built with Streamlit. Explore sales
 
 ```bash
 # Clone the repository
-git clone https://github.com/somtocodes/Streamlit-analysis.git
-cd Streamlit-analysis
+git clone https://github.com/somtocodes/Sales-analysis-dashboard.git
+cd Sales-analysis-dashboard
 
 # Install dependencies
 pip install -r requirements.txt

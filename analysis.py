@@ -15,7 +15,7 @@ def load_data():
 	df = pd.read_csv('data/train.csv')
 	
 	#drop unneccessary columns
-	columns_to_drop =  ['Row ID', 'Order ID','Ship Date','Ship Mode','Customer ID','Country','Postal Code','Product ID','Customer Name'])
+	columns_to_drop =  ['Row ID', 'Order ID','Ship Date','Ship Mode','Customer ID','Country','Postal Code','Product ID','Customer Name']
 	df =  df.drop(columns = columns_to_drop)
 	
 	df['Order Date'] = pandas.to_datetime(df['Order Date'], errors = 'coerce')
